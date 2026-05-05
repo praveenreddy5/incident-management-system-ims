@@ -1,0 +1,19 @@
+# Dependencies & builds
+node_modules/
+**/node_modules/
+frontend/dist/
+backend/dist/
+
+# Env & secrets (compose uses demo keys; local overrides stay private)
+.env
+.env.*
+!.env.example
+
+# Prisma generated client (regenerate with prisma generate)
+backend/generated/
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+.idea/

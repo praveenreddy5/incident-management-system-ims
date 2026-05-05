@@ -1,0 +1,2 @@
+ALTER TABLE "WorkItem"
+ADD COLUMN "endedAt" TIMESTAMP(3);

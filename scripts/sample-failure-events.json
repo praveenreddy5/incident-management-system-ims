@@ -1,0 +1,35 @@
+[
+  {
+    "component_id": "RDBMS_PRIMARY_01",
+    "component_type": "RDBMS",
+    "message": "Primary database connection timeout",
+    "timestamp": "2026-05-01T10:00:00.000Z",
+    "metadata": {
+      "latency_ms": 4000,
+      "region": "ap-south-1",
+      "error_code": "DB_TIMEOUT"
+    }
+  },
+  {
+    "component_id": "MCP_HOST_02",
+    "component_type": "MCP",
+    "message": "MCP host worker heartbeat missed",
+    "timestamp": "2026-05-01T10:00:10.000Z",
+    "metadata": {
+      "missed_heartbeats": 3,
+      "region": "ap-south-1",
+      "error_code": "HOST_UNREACHABLE"
+    }
+  },
+  {
+    "component_id": "CACHE_CLUSTER_01",
+    "component_type": "CACHE",
+    "message": "Redis cache latency spike",
+    "timestamp": "2026-05-01T10:00:20.000Z",
+    "metadata": {
+      "latency_ms": 180,
+      "region": "ap-south-1",
+      "error_code": "CACHE_SLOW"
+    }
+  }
+]
